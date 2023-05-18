@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Color Generator</title>
+</head>
+<body>
+    <h1></h1>
+    <div id="colorBox"></div>
+    <button id="startStop">Start / Stop</button>
+    <div class="options-container">
+        <div id="options">Options</div>
+        <div class="option hidden" id="instantColor">Instant Color</div>
+        <div class="option hidden" id="singleColor">Single Color</div>
+        <div class="option hidden" id="setInterval">Set Interval</div>
+    </div>
+    <div class="interval-input hidden">
+        <label for="setInterval">Set Interval (seconds)</label>
+        <input type="text" name="setInterval" maxlength="5">
+        <button>Enter</button>
+    </div>
+    <script src="main.js"></script>
+    <script src="options.js"></script>
+</body>
+</html>
